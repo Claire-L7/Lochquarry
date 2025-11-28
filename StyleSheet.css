@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(142, 189, 142);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    background-color: forestgreen;
+}
+
+/* flex box container to wrap nav and image */
+
+.main-content-wrapper {
+    display: flex;
+    gap: 30px;
+    min-height: 15vh;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 10px 0;
+    background-color: forestgreen;
+    flex-shrink: 0;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.main {
+    width: 70%;
+    float: left;
+    padding: 15px;
+    text-align: justify;
+   
+}
+
+.review {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.flex-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+    flex-basis: 30%;
+    padding: 10px;
+    
+}
